@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Aboutme from "./component/Aboutme";
 import Banner from "./component/Banner";
@@ -20,17 +21,14 @@ function App() {
         </label>
 
         <Navbar />
-
-        <Hero />
-
-        <Banner />
-
-        <Skills />
-
-        <Projects />
-        <Aboutme />
-
-        <Contact />
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="banner" element={<Banner />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="project" element={<Projects />} />
+          <Route path="aboutme" element={<Aboutme />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
         <Footer />
       </div>
     </>
