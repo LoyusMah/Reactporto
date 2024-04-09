@@ -21,7 +21,7 @@ const Contact = () => {
         </a>
       </div>
       <h3>OR</h3>
-      <div class="flex-center">
+      <div className="flex-center">
         <a href="" className="email-section flex-center">
           <span>maharjanloyus123@gmail.com</span>
           <div className="email flex-center">

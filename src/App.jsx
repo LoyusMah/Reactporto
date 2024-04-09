@@ -19,20 +19,18 @@ function App() {
           <i className="fa-brands fa-connectdevelop"></i>{" "}
         </label>
 
-        {/* <!-- navbar --> */}
         <Navbar />
-        {/* <!-- hero --> */}
+
         <Hero />
-        {/* <!-- banner --> */}
+
         <Banner />
-        {/* <!-- skills --> */}
+
         <Skills />
-        {/* <!-- projects--> */}
+
         <Projects />
         <Aboutme />
-        {/* <!-- contact--> */}
+
         <Contact />
-        {/* <!-- footer--> */}
         <Footer />
       </div>
     </>
