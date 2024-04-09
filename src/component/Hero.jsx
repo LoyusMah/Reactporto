@@ -1,6 +1,6 @@
 import React from "react";
 import Img from "../assets/main/loyus.png";
-
+import Cv from "../assets/main/Loyus Linkedin.pdf";
 const Hero = () => {
   return (
     <section className="hero-section container" id="hero">
@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="tag">Full Stack Developer</div>
           <p>I want to be the Developer</p>
           <div>
-            <a href="./assets/Loyus Linkedin.pdf" download>
+            <a href={Cv} download>
               <button>
                 Download CV <i class="fa-solid fa-download"></i>
               </button>

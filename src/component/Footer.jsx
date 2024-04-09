@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="flex-center">
-      <div className="top-flex">
+      <div className="flex">
         <div className="links">
           <h3>Links</h3>
           <ul>
@@ -31,7 +31,7 @@ const Footer = () => {
               <a href=""></a>Linkedin
             </li>
             <li>
-              <a href=""></a>fa-facebook
+              <a href=""></a>Facebook
             </li>
             <li>
               <a href=""></a>Instagram

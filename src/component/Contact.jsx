@@ -7,7 +7,7 @@ const Contact = () => {
         <span>Contact</span>
       </h2>
       <div className="flex social">
-        <a href="https://github.com/CrossFirerr">
+        <a href="https://github.com/LoyusMah" target="_blank">
           <i className="fa-brands fa-github"></i>
         </a>
         <a href="">

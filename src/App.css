@@ -39,6 +39,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+li {
+  list-style: none;
+}
 /* .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
