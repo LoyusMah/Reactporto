@@ -16,7 +16,7 @@ const Contact = () => {
         <a href="">
           <i className="fa-brands fa-facebook"></i>
         </a>
-        <a href="">
+        <a href="iMessage://0452362665">
           <i className="fa-solid fa-mobile"></i>
         </a>
       </div>
